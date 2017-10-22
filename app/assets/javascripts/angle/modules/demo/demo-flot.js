@@ -312,55 +312,40 @@
   $(function(){
 
     var data = [{
-      "label": "Tweets",
+      "label": "Severe",
       "color": "#51bff2",
       "data": [
-        ["Jan", 56],
-        ["Feb", 81],
-        ["Mar", 97],
-        ["Apr", 44],
-        ["May", 24],
-        ["Jun", 85],
-        ["Jul", 94],
-        ["Aug", 78],
-        ["Sep", 52],
-        ["Oct", 17],
-        ["Nov", 90],
-        ["Dec", 62]
+        ["10/1 ", gon.array[0]],
+        ["10/2 ", gon.array[1]],
+        ["10/3 ", gon.array[2]],
+        ["10/4 ", gon.array[3]],
+        ["10/5 ", gon.array[4]],
+        ["10/6 ", gon.array[5]],
+        ["10/7 ", gon.array[6]],
       ]
     }, {
-      "label": "Likes",
+      "label": "Moderate",
       "color": "#4a8ef1",
       "data": [
-        ["Jan", 69],
-        ["Feb", 135],
-        ["Mar", 14],
-        ["Apr", 100],
-        ["May", 100],
-        ["Jun", 62],
-        ["Jul", 115],
-        ["Aug", 22],
-        ["Sep", 104],
-        ["Oct", 132],
-        ["Nov", 72],
-        ["Dec", 61]
+        ["10/1", gon.array[7]],
+        ["10/2", gon.array[8]],
+        ["10/3", gon.array[9]],
+        ["10/4", gon.array[10]],
+        ["10/5", gon.array[11]],
+        ["10/6", gon.array[12]],
+        ["10/7", gon.array[13]],
       ]
     }, {
-      "label": "+1",
+      "label": "Mild",
       "color": "#f0693a",
       "data": [
-        ["Jan", 29],
-        ["Feb", 36],
-        ["Mar", 47],
-        ["Apr", 21],
-        ["May", 5],
-        ["Jun", 49],
-        ["Jul", 37],
-        ["Aug", 44],
-        ["Sep", 28],
-        ["Oct", 9],
-        ["Nov", 12],
-        ["Dec", 35]
+        ["10/1", gon.array[14]],
+        ["10/2", gon.array[15]],
+        ["10/3", gon.array[16]],
+        ["10/4", gon.array[17]],
+        ["10/5", gon.array[18]],
+        ["10/6", gon.array[19]],
+        ["10/7", gon.array[20]],
       ]
     }];
 

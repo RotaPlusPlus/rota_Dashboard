@@ -8,13 +8,13 @@
     if ( typeof Morris === 'undefined' ) return;
 
     var chartdata = [
-        { y: "2006", a: 100, b: 90 },
-        { y: "2007", a: 75,  b: 65 },
-        { y: "2008", a: 50,  b: 40 },
-        { y: "2009", a: 75,  b: 65 },
-        { y: "2010", a: 50,  b: 40 },
-        { y: "2011", a: 75,  b: 65 },
-        { y: "2012", a: 100, b: 90 }
+      { y: "10/1", a: gon.array[0], b: gon.array[1], c: gon.array[2]},
+      { y: "10/2", a: gon.array[3], b: gon.array[4], c: gon.array[5]},
+      { y: "10/3", a: gon.array[6], b: gon.array[7], c: gon.array[8]},
+      { y: "10/4", a: gon.array[9], b: gon.array[10], c: gon.array[11]},
+      { y: "10/5", a: gon.array[12], b: gon.array[13], c: gon.array[14]},
+      { y: "10/6", a: gon.array[15], b: gon.array[16], c: gon.array[17]},
+      { y: "10/7", a: gon.array[18], b: gon.array[19], c: gon.array[20]}
     ];
 
     var donutdata = [
@@ -54,10 +54,10 @@
         element: 'morris-bar',
         data: chartdata,
         xkey: 'y',
-        ykeys: ["a", "b"],
-        labels: ["Series A", "Series B"],
+        ykeys: ["a", "b", "c"],
+        labels: ["Severe", "Moderate", "Mild"],
         xLabelMargin: 2,
-        barColors: [ '#23b7e5', '#f05050' ],
+        barColors: ['#f05050', '#4a8ef1', '#23b7e5' ],
         resize: true
       });
 

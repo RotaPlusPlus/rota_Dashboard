@@ -58,3 +58,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "bower-rails", "~> 0.9.2"
+
+gem 'faker'
+gem 'forgery'
+
+gem 'gon'

@@ -47,6 +47,7 @@
    <!-- =============== VIEW VENDOR SCRIPTS ===============-->
    <%= javascript_include_tag params[:controller] %>
    <!-- =============== APP SCRIPTS ===============-->
+   <%= include_gon %>
    <%= javascript_include_tag 'application' %>
 
    <%= yield :body_area %> 

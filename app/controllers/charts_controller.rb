@@ -12,6 +12,12 @@ class ChartsController < ApplicationController
   end
 
   def morris
+    gon.array = []
+    for day in 1..7 do
+      for degree in 0..2 do
+        gon.array << Map.where(day: day).where(dehydration_degree: degree).count
+      end
+    end
   end
 
   def rickshaw
